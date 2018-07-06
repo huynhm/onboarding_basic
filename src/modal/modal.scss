@@ -1,0 +1,61 @@
+
+
+.onboard-modal {
+  position: absolute;
+  padding-top: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 95%;
+  width: 85%;
+
+  ion-icon {
+    margin-top: 20%;
+    font-size: 7em;
+
+  }
+
+  .diag {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    height: 66%;
+
+  }
+
+
+  h2 {
+    margin-top: 5% !important;
+    font-weight: bold;
+    font-size: 1em;
+  }
+
+  p {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    font-size: 0.9em;
+  }
+
+  #skip {
+    position: absolute;
+    bottom: 15%;
+    width: 100%;
+    background: none !important;
+    text-align: center;
+    cursor: pointer;
+    z-index: 5;
+  }
+
+  #next {
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+    background: none !important;
+    text-align: center;
+    cursor: pointer;
+    z-index: 5;
+  }
+}
+
+
